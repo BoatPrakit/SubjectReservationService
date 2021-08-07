@@ -68,6 +68,11 @@ EXPOSE 9090
 ENTRYPOINT exec java -jar app.jar
 ```
 
+```bash
+docker build -t subject-sit .
+```
+
+
 ### Docker compose
 ```yaml
 version: '3.4'
