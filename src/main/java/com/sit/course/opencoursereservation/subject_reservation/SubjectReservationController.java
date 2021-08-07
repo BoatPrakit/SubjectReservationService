@@ -55,6 +55,6 @@ public class SubjectReservationController {
     @GetMapping("/test")
     @ResponseStatus(HttpStatus.OK)
     public String test() {
-        return String.format("Hello, %s. old version", name);
+        return String.format("Hello, %s. This is merge from branch dev", name);
     }
 }
